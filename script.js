@@ -12,13 +12,3 @@ navLinks.forEach(link => {
         nav.classList.remove('active');
     });
 });
-
-const formulario = document.querySelector('.formulario');
-
-formulario.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    alert('Mensagem enviada com sucesso!');
-
-    formulario.reset();
-});
